@@ -7,8 +7,22 @@ Event Dispatcher is an application for sending events to various destinations us
 
 **Environment Requirements**:
 
-1. Installed Node.js version 18.19.0 and above.
-2. Docker.
+1. Installed Node.js version 16 and above.
+2. Installed Docker.
+
+**Startup**:
+To launch the application, follow these steps:
+
+1. Build the Docker image:
+
+   ```bash
+   docker build -t event_dispatcher .
+   ```
+
+2. Run the Docker container:
+   ```bash
+   docker run -dp 127.0.0.1:3000:3000 event_dispatcher
+   ```
 
 **Routes**:
 
